@@ -42,7 +42,7 @@ public partial class NewBehaviourScript : SystemBase
         {
             SystemAPI.SetComponent(entity, new LocalTransform
             {
-                Position = new Unity.Mathematics.float3(UnityEngine.Random.Range(-30f, +20f), UnityEngine.Random.Range(-50f, +50f), UnityEngine.Random.Range(-20f, +20f)),
+                Position = new Unity.Mathematics.float3(UnityEngine.Random.Range(-100f, +100f), UnityEngine.Random.Range(-100f, +100f), UnityEngine.Random.Range(-100f, +199f)),
                 Rotation = quaternion.identity,
                 Scale = 1f
             });
